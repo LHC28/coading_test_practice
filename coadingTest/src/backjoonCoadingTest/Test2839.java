@@ -13,19 +13,22 @@ public class Test2839 {
 		int weight = Integer.parseInt(br.readLine());
 		int count = 0;
 		
-		// 5로만
-		int c5 = weight/5;
-		int r5 = weight%5;
-		
-		//3으로만
-		int c3 = weight/3;
-		int r3 = weight%3;
-		
-		// 5 3 함께
-		count+=weight/5;
-		weight = weight%5;
-		count+=weight/3;
-		int r35 = weight%3;
+		while(true) {
+			
+			if(weight%5==0) {
+				count+=weight/5;
+				System.out.println(count);
+				break;
+			}else {
+				weight-=3;
+				count+=1;
+			}
+			
+			if(weight<0) {
+				System.out.println(-1);
+				break;
+			}
+		}
 		
 	}
 }
