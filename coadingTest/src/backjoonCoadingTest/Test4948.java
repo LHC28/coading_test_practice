@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Test4948 {
 	
-	public static boolean[] prime = new boolean[246913];
+	public static boolean[] prime = new boolean[246913]; // ÃÖ´ë °¹¼ö
     
 	public static void main(String[] args) {
  
