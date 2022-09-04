@@ -27,7 +27,7 @@ public class Test1929 {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		// 소수 구하기 공식은 거의 동일한듯.
+		// 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
